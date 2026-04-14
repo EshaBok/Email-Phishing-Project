@@ -4,3 +4,5 @@ Data_Location = "data/Nigerian_Fraud.csv"
 df = pd.read_csv(Data_Location)
 print(df.head())
 print(df.columns)
+domain = re.search(r'[\w\.-]+@([\w\.-]+)', df['sender'][0])
+print(domain.group(1)
