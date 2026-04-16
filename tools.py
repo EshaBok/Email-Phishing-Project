@@ -19,7 +19,14 @@ def scan_email_for_fraud(email):
       if word in email:
          score += 6
    return score
-   
+
+def extracting_domain(email):
+   domain = re.search(r'[\w\.-]+@([\w\.-]+)', email)
+   if domain:
+      return domain.group(1)
+   else:
+      return None
+
 if __name__ == "__main__":
    email = input("Copy and enter the email content: ")
    emailscore = scan_email_for_fraud(email)
