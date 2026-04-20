@@ -1,4 +1,4 @@
-# CLEANSWEEP: Email Fraud Detection & EDA
+# CLEANSWEEP: Email Fraud Detection & EDA !!IN PROGRESS!!
 
 CLEANSWEEP is a Python-based project focused on automated exploratory data analysis (EDA) and the detection of email phishing attempts. The system processes domain metadata and assigns safety scores to help identify fraudulent activity.
 
